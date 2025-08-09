@@ -1,7 +1,9 @@
 # Instructions
-1. Run uploadAssets.sh in the folder with your mp3 files, generates "assets.txt"
-2. Run transcribe.sh to transcribe all files in "assets.txt"
-    a. Results are output to songname.txt for every 'asset'
+1. Update your API_KEY in both uploadAssets.sh and transcibe.sh
+2. Run ./uploadAssets.sh in the folder with your mp3 files, generates "assets.txt"
+3. Run ./transcribe.sh to transcribe all files in "assets.txt"
+
+You now have all lyrics as "Song - Name.txt". Note they're one long string, I use gemini to make it into formatted lyrics.
 
 
 ## Assets.txt format (incorrect json, enough that jq likes it)
@@ -15,5 +17,3 @@
   "songname": "example.mp3"
 }
 ```
-
-I found gemini was best at then turning all the files into song lyrics, rather than a single long string.

@@ -3,7 +3,7 @@
 2. Run ./uploadAssets.sh in the folder with your mp3 files, generates "assets.txt"
 3. Run ./transcribe.sh to transcribe all files in "assets.txt"
 
-You now have all lyrics as "Song - Name.txt". Note they're one long string, I use gemini to make it into formatted lyrics.
+You now have all lyrics as "Song - Name.txt". Note they're one long string, I use gemini to make it into formatted lyrics. I prompt it via CLI with 'For every .txt file, format it as song lyrics then output to output/filename.txt'
 
 
 ## Assets.txt format (incorrect json, enough that jq likes it)
@@ -17,3 +17,4 @@ You now have all lyrics as "Song - Name.txt". Note they're one long string, I us
   "songname": "example.mp3"
 }
 ```
+

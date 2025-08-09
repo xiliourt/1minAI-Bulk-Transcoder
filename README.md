@@ -1,6 +1,6 @@
 # Instructions
 1. Run uploadAssets.sh in the folder with your mp3 files, generates "assets.txt"
-2. Run transscribe.sh to transcribe all files in "assets.txt"
+2. Run transcribe.sh to transcribe all files in "assets.txt"
     a. Results are output to songname.txt for every 'asset'
 
 

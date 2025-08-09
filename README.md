@@ -6,8 +6,9 @@
 You now have all lyrics as "Song - Name.txt". 
 
 Note they're one long string, I use gemini to make it into formatted lyrics, I prompt it via CLI with 
-
-```For every .txt file, format it as song lyrics then output to output/filename.txt```
+```
+For every .txt file, format it as song lyrics then output to output/filename.txt
+```
 
 
 ## Assets.txt format (incorrect json, enough that jq likes it)

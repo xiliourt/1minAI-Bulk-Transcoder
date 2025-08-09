@@ -9,7 +9,7 @@ You now have all lyrics as "Song - Name.txt".
 
 Note they're one long string, I use gemini to make it into formatted lyrics, I prompt it via CLI with 
 ```
-For every .txt file, format it as song lyrics then output to output/filename.txt
+For every .txt file, format it as song lyrics then output to output/filename.txt. Don't assume a capital letter is a new line; use language logic instead.
 ```
 
 

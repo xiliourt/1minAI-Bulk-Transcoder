@@ -1,3 +1,5 @@
+Transcribes bulk mp3 files to txt
+
 # Instructions
 1. Update your API_KEY in both uploadAssets.sh and transcibe.sh
 2. Run ./uploadAssets.sh in the folder with your mp3 files, generates "assets.txt"
